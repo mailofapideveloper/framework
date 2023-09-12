@@ -1,0 +1,8 @@
+{
+  "goid": "e68a6bebfbf8f64e3e3b5c2a1c208f30",
+  "name": "io.httpsHostAllowWildcard",
+  "checksum": "b64f30c7d88b60bbf1b0def0178b40291c09e06b",
+  "description": "Allow wildcards when verifying hostnames (true/false)",
+  "hiddenProperty": false,
+  "value": "true"
+}

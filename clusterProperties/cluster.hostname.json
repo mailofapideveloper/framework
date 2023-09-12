@@ -1,0 +1,8 @@
+{
+  "goid": "0000000000000000fffffffffff5519f",
+  "name": "cluster.hostname",
+  "checksum": "25e3106e8778b6ebe94d7d3f8eeca0d96dc258be",
+  "description": "External hostname for the cluster",
+  "hiddenProperty": false,
+  "value": "gateway.brcmlabs.com"
+}

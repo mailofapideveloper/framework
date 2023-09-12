@@ -1,0 +1,8 @@
+{
+  "goid": "35e702ec3af2e34c2f84e7339a03a789",
+  "name": "audit.setDetailLevel.FINE",
+  "checksum": "2ef1d6f928b5e331fb3d258f596a93ef41c8ab6d",
+  "description": "Set the audit detail level for all listed audit codes to 'FINE'. Space separated list.",
+  "hiddenProperty": false,
+  "value": "152 7101 7103 9648 9645 7026 7027 4155 150 4716 4114 6306 4100 9655 150 151 11000 4104"
+}

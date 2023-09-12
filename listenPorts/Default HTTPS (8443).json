@@ -1,0 +1,43 @@
+{
+  "goid": "79b25cce4e4dddd91e95cd231f1f3372",
+  "name": "Default HTTPS (8443)",
+  "checksum": "2da9b090d996a848c28555865246aed0113351da",
+  "enabled": true,
+  "protocol": "HTTPS",
+  "port": 8443,
+  "enabledFeatures": [
+    "PUBLISHED_SERVICE_MESSAGE_INPUT"
+  ],
+  "tlsSettings": {
+    "clientAuthentication": "OPTIONAL",
+    "keystoreId": "00000000000000000000000000000002",
+    "keyAlias": "ssl",
+    "tlsVersions": [
+      "TLSv1.2",
+      "TLSv1.3"
+    ],
+    "cipherSuites": [
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+      "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+      "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+      "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+      "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_AES_128_GCM_SHA256"
+    ],
+    "useCipherSuitesOrder": true
+  }
+}

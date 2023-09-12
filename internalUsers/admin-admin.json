@@ -1,0 +1,9 @@
+{
+  "goid": "00000000000000000000000000000003",
+  "name": "admin",
+  "login": "admin",
+  "checksum": "d33664a97c949027b67a4b860faa1ea60ad41db4",
+  "enabled": true,
+  "password": "$6$EGhK50ENf81tniFC$pQYtAXsBvBLHVqSd4OCs587WSuS64m755Az.kjc4c7nalBxfC437yJ8shHY6Dommu.gmUI/Y9gOtG.7mIqfAp0",
+  "memberOf": []
+}
