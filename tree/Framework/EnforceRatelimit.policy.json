@@ -1,0 +1,11 @@
+{
+  "goid": "7f565a93767ac82901b33a3e5ec9a1d1",
+  "guid": "89d55b95-aa01-45e7-8518-ec1370c37cfe",
+  "name": "EnforceRatelimit",
+  "checksum": "a7acf965e33eca562e471ff8499368fc7867640b",
+  "folderPath": "/Framework",
+  "soap": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: EnforceSecurity\"/>\n        </L7p:CommentAssertion>\n        <wsp:OneOrMore wsp:Usage=\"Required\">\n            <L7p:RateLimit>\n                <L7p:CounterName stringValue=\"PRESET(11fab594e1b70384)${request.clientid}\"/>\n                <L7p:MaxRequestsPerSecond stringValue=\"1\"/>\n            </L7p:RateLimit>\n            <L7p:HardcodedResponse>\n                <L7p:Base64ResponseBody stringValue=\"ewogICJlcnJvciI6IHsKICAgICJjb2RlIjogNDI5LAogICAgIm1lc3NhZ2UiOiAiVG9vIE1hbnkgUmVxdWVzdHMiLAogICAgImRlc2NyaXB0aW9uIjogIllvdSBoYXZlIGV4Y2VlZGVkIHRoZSByYXRlIGxpbWl0IGZvciB0aGlzIHJlc291cmNlLiBQbGVhc2UgdHJ5IGFnYWluIGxhdGVyLiIKICB9Cn0=\"/>\n                <L7p:EarlyResponse booleanValue=\"true\"/>\n                <L7p:ResponseContentType stringValue=\"application/json; charset=UTF-8\"/>\n                <L7p:ResponseStatus stringValue=\"429\"/>\n            </L7p:HardcodedResponse>\n        </wsp:OneOrMore>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}
